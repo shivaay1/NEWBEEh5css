@@ -1,0 +1,198 @@
+body {
+  
+}
+
+nav {
+
+    margin: none;
+    padding:20px;
+    background-color: #372b2b;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    
+    overflow: hidden;
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li { 
+    display: block;
+    float: left;
+    left: 0px;
+    padding: 0 10px 0 0;
+    color: #808080;
+}
+
+.searchBar , .searchButton{
+    position: relative;
+    float: right;
+    left: -50px;
+    
+}
+
+#carousel, #link, #home, #disabled {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+#carousel {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ #link > a, #home > a, #disabled > a {
+     position: static;
+     font-size: 18px;
+     text-decoration: none;
+     color: #808080;
+
+ }
+
+ 
+ #link > a:hover, #home > a:hover, #disabled > a:hover {
+
+      color: #939191;
+
+  }
+
+ .searchBar > input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .searchButton input[type=button] {
+
+     outline:solid;
+     border: none;
+      height: 30px;
+      width: 110px;
+      border-radius: 7px;
+      background-color:#808080;
+      box-shadow:none;
+      color: forestgreen;
+      font-size: medium;
+
+  }
+
+ .searchButton > a{
+     position: relative;
+     text-decoration: none; 
+     padding: 6px 10px;
+     border: forestgreen 2px solid;
+     top: 6px;
+     color: forestgreen;
+     font-size: 14px;
+    border-radius: 3px;
+ }
+
+.searchButton > a:hover{
+
+    background-color: forestgreen;
+    color: white;
+
+}
+
+.w3schools{
+
+    z-index: -1;
+    width: 200px;
+
+    position: relative;
+    left: 290px;
+    top: 70px;
+    overflow: hidden;
+    padding: 10px 200px;
+    background-color: green;
+}
+
+p {
+
+    font-family: Verdana;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.block {
+    display: block;
+    position: relative;
+    top: 210px;
+    z-index: 50;
+    margin: auto;
+}
+
+.imgText {
+
+    color: #939191;
+    position: relative;
+    top: -100px;
+    float:left;
+    z-index: 2;
+
+}
+
+.restImg {
+    height: 80px;
+    width: 70px;
+    position: relative;
+    top: 20px;
+    left: 340px;
+}
+
+h1 {
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewDtls {
+
+    border: 10px solid #808080;
+    border-radius: 10px;
+    padding: 4px 20px  #808080;
+    background-color: #808080;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 315px;
+    
+}
+
+.viewDtls:hover{
+
+    border: 10px solid #403e3e;
+    border-radius: 10px;
+    padding: 4px 20px  #403e3e;
+    background-color: #403e3e;
+ 
+}
+
+.imgHeading1 {
+
+    text-align: center;
+
+}
+
+.html5 {
+
+    z-index: 60;
+}
